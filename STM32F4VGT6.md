@@ -33,3 +33,34 @@ To flash stuff using st-flash ( part of st-link cli tools ):
 ```
 ./build/Release/st-flash write ./espruino_1v92/espruino_1v92.3_stm32f4discovery.bin 0x08000000
 ```
+
+### some doc from which I wrote my pinout ;)
+- jap & code :http://dubstylee.net/v/stm32duino-bootloader-build/
+- same as above for board: http://dubstylee.net/v/diy-more-stm32f407vgt6/
+- some nteresting infos & fixes : https://github.com/rogerclarkmelbourne/STM32duino-bootloader/
+- getting the USB to work: https://www.stm32duino.com/viewtopic.php?f=39&t=2666&sid=7f3725152715d8b2c79fa030bb125d51&start=10
+- VET6 version of the schematic: http://wiki.stm32duino.com/images/6/69/Vcc-gnd.com-STM32F407VET_mini-schematic.pdf
+- partial & non-that-intelligible translation of jap + code board page: https://edoc.site/diy-more-stm32f407vgt6-boar1-pdf-free.html
+- 
+
+### Getting everything working on it ;)
+- STM32F407VGT6 breakout board baremetal examples: https://github.com/dwelch67/black_pill_too
+- Working way to flash the board :D : http://stm32f4-discovery.net/2014/09/program-stm32f4-with-uart/
+
+### getting backups & DFU stuf
+- http://alain.wanamoon.net/2014/06/28/restoring-original-flash-contents-to-the-stm32f4-discovery/
+- http://oshgarage.com/dfu-mode-on-a-stm32-microcontroller/
+
+### TO DIGG ( libs & features offered by the SMT32 & tutorials )
+- all ST lib: http://stm32f4-discovery.net/2015/07/all-stm32-hal-libraries/
+- USB libs: http://stm32f4-discovery.net/2015/08/hal-library-21-multi-purpose-usb-library-for-stm32fxxx/
+- some links: http://stm32f4-discovery.net/stm32f4-links/
+- lots of tuts: http://stm32f4-discovery.net/category/stm32f4-2/
+- https://github.com/rowol/stm32_discovery_arm_gcc/tree/master/usb_cdc_vcp
+
+### On USB HOST + DEVICE combo ( for MitM passhrough & Xbox360 controller hack ;p )
+- https://community.st.com/s/question/0D50X00009Xkaw6SAB/hid-usb-host-example-ported-to-stm32f4-discovery-mouse-keyboard
+- https://www.st.com/en/embedded-software/stsw-stm32046.html
+- actual doc: https://www.st.com/content/ccc/resource/technical/document/user_manual/1c/6b/06/e6/19/6c/46/bf/CD00289278.pdf/files/CD00289278.pdf/jcr:content/translations/en.CD00289278.pdf
+- example from a wise individual: http://moretosprojects.blogspot.com/2014/12/stm32f4-usb-host-and-device.html
+- schematic for the above example ( note the 10k for the USB acting as HOST .. ): http://3.bp.blogspot.com/-b1dRjJKVorE/VH9OHlCAAeI/AAAAAAAAIeg/8-2qKZ0f8u8/s1600/STM32F4_usb_sch.png
