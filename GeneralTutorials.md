@@ -1,5 +1,7 @@
 ### Articles
+### microtechnics
 - summary: https://microtechnics.ru/en/
+- USARTs: https://microtechnics.ru/en/stm32cube-using-the-stm32-usart-interface/
 - Timers & Interrupts: https://microtechnics.ru/en/stm32cube-timer-and-interrupts/
 - RCC & Clock Configuration: https://microtechnics.ru/en/stm32cube-rcc-clock-configuration/
 - GPIOs: https://microtechnics.ru/en/stm32cube-general-purpose-input-output-gpio/
@@ -8,6 +10,9 @@
 - USB Virtual Com Port: https://microtechnics.ru/en/stm32cube-and-usb-virtual-com-port-2/
 - above-related: https://stackoverflow.com/questions/33549084/stm32cubemx-usb-cdc-vcp
 - SPI & DMA: https://microtechnics.ru/en/stm32cube-spi-and-dma-example/
+
+### stm32f4-discovery.net
+- https://stm32f4-discovery.net/2014/09/library-34-stm32f4-usb-hid-device/
 
 ### Videos
 - summary: https://www.youtube.com/channel/UCjPRuknkFjqM6UxxTbCQJ5Q/videos
