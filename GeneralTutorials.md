@@ -1,4 +1,8 @@
 ### Articles
+### Good summarizing ref:
+- https://wiki.robotronik.org/index.php?title=STM32#Communication_USB
+- PWM: https://www.waveshare.com/wiki/STM32CubeMX_Tutorial_Series:_PWM
+
 ### microtechnics
 - summary: https://microtechnics.ru/en/
 - USARTs: https://microtechnics.ru/en/stm32cube-using-the-stm32-usart-interface/
@@ -16,6 +20,7 @@
 - USB lib: https://github.com/Oliv4945/STM32L052_Breadboard/blob/master/Documents/USB_Library.pdf
 - FTDI troubles on Mac PS X: https://notes.iopush.net/ftdi-troubles-and-mac-os-x/
 - USB HOST internal PHY: https://community.st.com/s/question/0D50X00009Xki3aSAB/usb-otg-hs-host-in-mode-fs-internal-phy-and-usb-otg-fs-device
+- USB Host lib manual :https://www.st.com/content/ccc/resource/technical/document/user_manual/b8/5a/28/c2/cf/b6/47/d6/DM00105256.pdf/files/DM00105256.pdf/jcr:content/translations/en.DM00105256.pdf
 - overcoming wrong pull-up D+ resistor: http://amitesh-singh.github.io/stm32/2017/05/27/Overcoming-wrong-pullup-in-blue-pill.html
 - custom i2c slave: http://amitesh-singh.github.io/stm32/2018/01/07/making-i2c-slave-using-stm32f103.html
 - i2c slave receiver: https://stackoverflow.com/questions/25392572/stm32f4-i2c-slave-receiver
