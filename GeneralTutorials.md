@@ -1,4 +1,8 @@
 ### Articles
+
+### using Arduino & firmata ?
+- https://github.com/stm32duino/wiki/wiki/Getting-Started
+
 ### Good summarizing ref:
 - https://wiki.robotronik.org/index.php?title=STM32#Communication_USB
 - PWM: https://www.waveshare.com/wiki/STM32CubeMX_Tutorial_Series:_PWM
